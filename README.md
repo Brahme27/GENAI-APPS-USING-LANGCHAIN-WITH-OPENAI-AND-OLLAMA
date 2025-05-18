@@ -61,34 +61,5 @@ This app can:
   ```bash
   ollama pull deepseek-r1
 
-
-##  Project 2: Chatbot Web App using Ollama (deepseek-r1) + Streamlit
-
-This app can:
-- Take user input from a simple web interface.
-- Use a **local LLM** (`deepseek-r1`) powered by **Ollama**.
-- Display the model's response on the webpage in real-time.
-
-###  What it does:
-- Creates a chatbot UI using **Streamlit**.
-- Loads a prompt template that sets the system behavior.
-- Sends the user’s question to the local **deepseek-r1** model using **LangChain’s Ollama wrapper**.
-- Returns and displays the generated answer instantly.
-
-###  Libraries Used:
-- `langchain`
-- `langchain_community`
-- `streamlit`
-- `python-dotenv`
-
-###  Model Used:
-- **deepseek-r1** (run locally via Ollama)
-
-###  Requirements:
-- Install [Ollama](https://ollama.com) on your system.
-- Pull the required model:
-  ```bash
-  ollama pull deepseek-r1
-
 ### How to run
 streamlit run app.py
